@@ -1,0 +1,47 @@
+.field-banner-text {
+    display: block;
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    transform: translate(50px,209%);
+    top: auto;
+    /* bottom: 50px; */
+    left: 20%;
+    padding: 1.8rem;
+    /* margin-bottom: 2px; */
+    text-shadow: none;
+    background-color: rgba(90, 203,243,0.9);
+    font-size: 2.2em;
+    font-weight: normal;
+    color: #000;
+}
+
+.banner-image-overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    z-index: 10;
+}
+
+img{
+    background-position: cover;
+    width :100%;
+    height: 20rem;
+}
+
+h1,strong{
+    font-size: 80px;
+    font-weight: 370;
+    text-align: center;
+}
+
+strong{
+    color: red;
+}
+
+.text-center{
+    margin:0 0 auto 10rem;
+}
+
